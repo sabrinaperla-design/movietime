@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px; box-sizing: border-box}
+nav{display: flex; justify-content: space-around; align-items: center; min-height: 8vh; background-color: black; font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"}
+.logo{color: white; text: uppercase; letter-spacing: 8px; font-size: 27px; text-decoration: none}
+.nav-links{display: flex; justify-content: space-around; width: 35%; text-decoration: none}
+.nav-links li{text-decoration: none; list-style: none}
+.nav-links a{color: white; text-decoration: none; letter-spacing: 2px}
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: none;
+    color: #F66466;
+}
+a:active {
+    text-decoration: none;
+    color: #F66466;
+}
+.foto{margin: auto; aling-items: center}

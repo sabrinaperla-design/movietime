@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px}
+body{text-align: center; background-color: black}
+.wrapper{width: 1170px; margin: 0px auto}
+header{height: 100px; width: 100%;z-index: 12; position: fixed; background-color: black}
+.logo{ width: 30%; float: left; margin-top: -134px}
+.logo img {max-width: 100%}
+nav{float: right; line-height: 100px}
+nav a{text-decoration: none; font-family: "cabin-condensed"; font-size: 20px; color: white; margin: 0px 10px; letter-spacing: 3px}
+.persona{float: right; margin-top: 20px; width: 50px; height: 50px; margin-left: 12px; border-radius: 50%}
+.border h3{border: 10px solid; margin-left: 500px;margin-right: 500px; background-color: red; padding-top: 10px; text-align: center; position:relative; top: 200px; letter-spacing: 2px; padding-bottom: 10px; margin-bottom: 10px}
+.border h3:hover{ text-decoration: none; color: white;}
+footer{height: 120px; width: 100%; z-index: 12; position: relative; top: 190px}
+.redes{width: 1170px; margin: 100px auto}
+.redes a {text-decoration: none; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; font-size: 16px; color: white; margin: 0px 140px; letter-spacing: 3px}
+.wrapper3{width: 100px; margin: 58px auto; padding-top: 12px; color: white; padding-bottom: 35px}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: #F66466;
+}
+a:active {
+    text-decoration: none;
+    color: #F66466;
+}
